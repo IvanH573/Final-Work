@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f3e5d8;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.BitCook, h1, h2, h3 {
+  font-family: DM Serif Display;
+}
+
+a, p {
+  font-family: "DM sans", sans-serif;
+}
+
+#Header-Content {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #255538;
+  width: 100%;
+  height: 58px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Homepage {
+  font-size: 24px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#Different-recipes {
+  margin: 0 auto;
+  max-width: 1239px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-rows: 101px fit-content fit-content;
+  grid-template-areas:
+    "p p p "
+    "first-recipe second-recipe Third-recipe"
+    "fourth-recipe fifth-recipe sixth-recipe";
+}
+
+#title {
+  background-image: url(../Images/Omelette.png);
+  background-position: center;
+  background-size: cover;
+  padding: 56px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1239px;
+}
+
+#title h1 {
+    color: white;
+    font-size: 64px;
+    position: absolute;
+}
+
+#divider {
+    margin-bottom: 28px;
+    margin-top: 40px;
+    grid-area: p;
+}
+
+main h2 {
+    color: #7E4333;
+    font-size: 24px;
+    display: flex;
+}
+
+.Recipes {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+#first-recipe {
+    grid-area: first-recipe;
+}
+
+#first-recipe a img {
+    height: 248px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#first-recipe a h3 {
+    color: #7E4333;
+    font-size: 36px;
+}
+
+#first-recipe a ul {
+    color: black;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+#second-recipe {
+    grid-area: second-recipe;
+}
+
+#second-recipe a img {
+    height: 248px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#second-recipe a h3 {
+    color: #7E4333;
+    font-size: 36px;
+}
+
+#second-recipe a ul {
+    color: black;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+#Third-recipe {
+    grid-area: Third-recipe;
+}
+
+#Third-recipe a img {
+    height: 248px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#Third-recipe a h3 {
+    color: #7E4333;
+    font-size: 36px;
+}
+
+#Third-recipe a ul {
+    color: black;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+#fourth-recipe {
+    grid-area: fourth-recipe;
+}
+
+#fourth-recipe a img {
+    height: 248px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#fourth-recipe a h3 {
+    color: #7E4333;
+    font-size: 36px;
+}
+
+#fourth-recipe a ul {
+    color: black;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+#fifth-recipe {
+    grid-area: fifth-recipe;
+}
+
+#fifth-recipe a img {
+    height: 248px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#fifth-recipe a h3 {
+    color: #7E4333;
+    font-size: 36px;
+}
+
+#fifth-recipe a ul {
+    color: black;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+#sixth-recipe {
+    grid-area: sixth-recipe;
+}
+
+#sixth-recipe a img {
+    height: 248px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#sixth-recipe a h3 {
+    color: #7E4333;
+    font-size: 36px;
+}
+
+#sixth-recipe a ul {
+    color: black;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #255538;
+    height: 58px;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+}
