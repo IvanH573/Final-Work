@@ -47,13 +47,14 @@ a {
 header {
   background-color: #255538;
   height: 58px;
+  width: 100%;
   padding: 12px 20px;
-  border-bottom: 6px;
+  border-radius: 6px;
   margin-bottom: 28px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 header a {
   color: white;
@@ -160,10 +161,17 @@ p {
   display: flex;
 }
 
+.space {
+  margin-bottom: 20px;
+  display: block;
+}
+
 footer {
   background-color: #255538;
+  width: 100%;
   height: 58px;
   padding: 12px 20px;
+  border-radius: 6px;
   margin-top: 80px;
   display: flex;
   flex-direction: row;
@@ -173,4 +181,10 @@ footer {
 footer p {
   color: white;
   font-size: 16px;
+}
+
+footer a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
 }
